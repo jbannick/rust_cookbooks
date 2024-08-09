@@ -1,0 +1,11 @@
+# configuration for log4rs crate
+refresh_rate: 10 seconds # interval for checking config changes
+appenders:
+  stdout:
+    kind: console
+root:
+  level: trace
+  appenders:
+    - stdout
+
+
