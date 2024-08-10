@@ -8,4 +8,4 @@ Step 1. Clone this repo
 Step 2. Go to the root of your local copy of this repo  
 Step 3. Enter: `cargo run --example <example-name> -- [any arguments used by the example]`  
 Example: `cargo run --example cliargs -- --servertype sub`  
-Note: The extra `--` string is required by Cargo.  
+Note: The extra `--` string is required by Cargo if you enter arguments used by the example.  
